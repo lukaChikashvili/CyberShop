@@ -56,3 +56,35 @@ body {
     );
 
 }
+
+.futuristic_button {
+   width: 300px;
+   background-color: transparent;
+   border: 2px solid #fff;
+   border-radius: 0;
+    padding: 5px 50px;
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  clip-path: polygon(
+    0% 0%, 90% 0%,
+    100% 10%, 
+    100% 100%, 
+    10% 100%, 
+    0% 90% 
+  );
+
+  color: #fff;
+  transition: all 0.8s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+
+}
+
+
+.futuristic_button:hover {
+
+    background: transparent;
+    border: 2px solid #fff;
+    transform: translateY(-3px);
+}

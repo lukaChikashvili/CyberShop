@@ -1,4 +1,4 @@
-
+import { Info, ShoppingCart} from 'lucide-react'
 
 function App() {
 
@@ -15,6 +15,11 @@ function App() {
               <p className="text-[#FFEB00] ">
                  Shop Smarter. Shop Faster. Shop the Future.
               </p>
+
+          <div className="flex items-center gap-8">
+              <button className="futuristic_button flex items-center gap-4"><ShoppingCart />Start buying</button>
+              <button className="futuristic_button flex items-center gap-4"><Info />About us</button>
+              </div>
          </div>
         </div>    
     </>
