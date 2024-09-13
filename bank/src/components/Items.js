@@ -56,6 +56,15 @@ export const items = [
         price: 2500
     },
 
+    {
+        id: 9,
+        img: phone,
+        title: "Iphone 21",
+        price: 2000
+    }
+
+   
+
 
 
 ];

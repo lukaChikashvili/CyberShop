@@ -99,5 +99,12 @@ body {
     0 100%,
     0 50px 
   );
-  border: 1.5px solid #fff;
+  border: 1px solid #fff;
+  cursor: pointer;
+ 
+}
+
+.img:hover {
+  border: 3px solid #fff;
+  opacity: 60%;
 }
