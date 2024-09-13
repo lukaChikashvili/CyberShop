@@ -1,6 +1,6 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
-import { items } from './Items';
+import { items, reviews } from './Items';
 import { DollarSign } from 'lucide-react';
 import ReactStars from 'react-stars'
 
@@ -33,6 +33,20 @@ const ProductDetail = () => {
         <div className=' h-0.5 absolute left-0 bg-white' style={{width: '736px'}}></div>
         <div className='w-2/5 h-0.5 absolute right-0 bottom-12 bg-white'></div>
         <div className=' h-0.5 absolute left-96  -rotate-45 -bottom-10 bg-white' style={{width: '248px', marginLeft: '315px'}}></div>
+  <div>
+  <input type='text' className='absolute right-44 -bottom-12 w-2/6 outline-none' placeholder='Write your review...' />
+  <button className='absolute right-2 -bottom-12 publish bg-[#8A2BE2] text-white w-56 '>Publish</button>
+  </div>
+  
+   
+<div className='flex flex-col items-center gap-4 mt-12'>
+        {reviews.map((value) => (
+            <div className=' flex flex-col gap-2'>
+             <h1 className='text-white font-bold'>{value.user}</h1>
+             <p className="text">{value.text}</p>
+             </div>
+        ))}
+        </div>
     </div>
     </>
   )

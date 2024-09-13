@@ -108,3 +108,35 @@ body {
   border: 3px solid #fff;
   opacity: 60%;
 }
+
+.text {
+  clip-path: polygon(
+    50px 0, 
+    100% 0, 
+    100% calc(100% - 50px), 
+    calc(100% - 50px) 100%,
+    0 100%,
+    0 50px 
+  );
+  background-color: #fff;
+  padding: 25px;
+
+}
+
+input, .publish {
+  clip-path: polygon(
+    50px 0, 
+    100% 0, 
+    100% calc(100% - 50px), 
+    calc(100% - 50px) 100%,
+    0 100%,
+    0 50px 
+  );
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.4s ease-in;
+}
+
+.publish:hover {
+   border: 2px solid #fff;
+}

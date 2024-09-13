@@ -75,3 +75,31 @@ export const items = [
 
 
 ];
+
+
+export const reviews = [
+    {
+        id: 1,
+        user: 'Sophia M.',
+        text: "These shoes are a game-changer! I love how futuristic they look, and they are surprisingly comfortable. I wore them all day, and my feet didn't hurt at all. Definitely buying another pair in a different color!"
+    },
+
+    {
+        id: 2,
+        user: 'Emily R.',
+        text: "I wasn’t sure about the design at first, but once I tried them on, I was sold. They’re lightweight, breathable, and the cushioning is perfect for long walks. I get compliments on them all the time!"
+    },
+
+    {
+        id: 3,
+        user: 'Jessica T.',
+        text: "I’ve been wearing these for a week now, and I’m in love. They’re so stylish yet practical. The quality is top-notch, and they pair perfectly with everything from casual jeans to dresses."
+    },
+
+    {
+        id: 4,
+        user: 'Ava S.',
+        text: "These shoes are out of this world! They feel like walking on clouds, and I love the unique design. I’ve never worn anything quite like them. Plus, they’re durable – great for my daily commute."
+    }
+
+];
