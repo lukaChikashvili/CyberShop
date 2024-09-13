@@ -11,8 +11,8 @@ export const items = [
         img: shoe,
         title: "CyberShoe (Men)",
         price: 24.99,
-
-       
+        desc: `Elevate your footwear game with Cybershoe Men, the ultimate blend of futuristic design and cutting-edge comfort. Perfect for men who want to make a bold statement while keeping functionality at the forefront, these shoes are engineered for both style and performance.`,
+        reviews: 4
     },
 
     {
@@ -31,21 +31,28 @@ export const items = [
         id: 4,
         img: watch,
         title: "CyberWatch",
-        price: 99.99
+        price: 99.99,
+        desc: `Introducing the Cyberwatch, a cutting-edge fusion of technology and style that redefines what a smartwatch can be. Designed for the modern, tech-savvy individual, the Cyberwatch is more than just a timepiece – it's your ultimate companion for staying connected, tracking health, and enhancing productivity.`,
+        reviews: 4
     },
 
     {
         id: 5,
         img: glass,
-        title: "CyberSunglasse",
-        price: 65.99
+        title: "CyberSunglasses",
+        price: 65.99,
+        desc: `Step into the future with Cybersunglasses, where cutting-edge technology meets sleek, modern design. These sunglasses aren't just a fashion statement—they're a tool for enhanced vision, ultimate UV protection, and next-level style.`,
+        reviews: 4
+
     },
 
     {
         id: 6,
         img: glass2,
-        title: "CyberSunglasse",
-        price: 124.99
+        title: "CyberSunglass",
+        price: 124.99,
+        desc: `Step into the future with Cybersunglasses, where cutting-edge technology meets sleek, modern design. These sunglasses aren't just a fashion statement—they're a tool for enhanced vision, ultimate UV protection, and next-level style.`,
+        reviews: 4
     },
 
     
@@ -53,21 +60,27 @@ export const items = [
         id: 7,
         img: phone,
         title: "Iphone 21",
-        price: 2000
+        price: 2000,
+        desc: `Introducing the iPhone 21, the latest marvel from Apple that sets a new standard for smartphones with its groundbreaking features, powerful performance, and sleek design. Perfect for tech enthusiasts and everyday users alike, the iPhone 21 offers a seamless blend of cutting-edge technology and intuitive functionality.`,
+        reviews: 4
     },
 
     {
         id: 8,
         img: phone2,
         title: "Iphone 21 pro",
-        price: 2500
+        price: 2500,
+        desc: `Introducing the iPhone 21 Pro, Apple's flagship device that redefines what a smartphone can be. Designed for those who demand the best in performance, photography, and technology, the iPhone 21 Pro combines cutting-edge features with unparalleled sophistication.`,
+        reviews: 4
     },
 
     {
         id: 9,
         img: phone,
         title: "Iphone 21",
-        price: 2000
+        price: 2000,
+        desc: `Introducing the iPhone 21 Pro, Apple's flagship device that redefines what a smartphone can be. Designed for those who demand the best in performance, photography, and technology, the iPhone 21 Pro combines cutting-edge features with unparalleled sophistication.`,
+        reviews: 4
     }
 
    
