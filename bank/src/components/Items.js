@@ -10,14 +10,21 @@ export const items = [
         id: 1,
         img: shoe,
         title: "CyberShoe (Men)",
-        price: 24.99
+        price: 24.99,
+
+       
     },
 
     {
         id: 2,
         img: shoe2,
         title: "CyberShoe (Women)",
-        price: 25.99
+        price: 25.99,
+        desc: `Step into the future with Cybershoe Women, where cutting-edge design meets ultimate comfort. 
+        Perfect for modern women who value both aesthetics and functionality, this shoe is designed to
+         keep up with your 
+        fast-paced lifestyle while adding a touch of futuristic flair to your wardrobe.`,
+        reviews: 10
     },
 
     {
