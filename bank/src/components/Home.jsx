@@ -1,8 +1,18 @@
 import React from 'react'
 import { Info, ShoppingCart} from 'lucide-react'
+import { useNavigate } from 'react-router-dom'
+
 
 
 const Home = () => {
+
+    let navigate = useNavigate();
+
+     // navigate to product page
+     const showProducts = () => {
+       navigate('/products');
+     } 
+
   return (
     <div className="frame">
           <div className="inner_frame flex flex-col gap-8 items-center justify-center">
@@ -16,10 +26,12 @@ const Home = () => {
               </p>
 
           <div className="flex items-center gap-8">
-              <button className="futuristic_button flex items-center gap-4"><ShoppingCart />Start buying</button>
+              <button className="futuristic_button flex items-center gap-4" onClick={showProducts}><ShoppingCart />Start buying</button>
               <button className="futuristic_button flex items-center gap-4"><Info />About us</button>
               </div>
          </div>
+
+    
         </div>    
   )
 }
