@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 
 const Products = () => {
   return (
-    <div className="frame">
+    <div className="frame ">
           <div className="inner_frame flex flex-wrap text-center  gap-16 items-center justify-center">
         
            {items.map((value) => {

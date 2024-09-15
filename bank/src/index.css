@@ -140,3 +140,9 @@ input, .publish {
 .publish:hover {
    border: 2px solid #fff;
 }
+
+.desc {
+  width: 600px;
+  
+}
+
